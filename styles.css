@@ -178,3 +178,14 @@ background: #A3041F;
     font-size: 1.2em;
     border-radius: 5px;
 }
+
+/* Mission statement */
+.container-mission-statement {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 28px;
+}
