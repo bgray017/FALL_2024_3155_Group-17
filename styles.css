@@ -59,6 +59,17 @@ header nav button:hover {
     text-align: center;
     transition: transform 0.2s;
 }
+.card-2{
+    background: black;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+    transition: transform 0.2s;
+    color: white;
+}
 
 .card:hover {
     transform: scale(1.05);
@@ -68,11 +79,29 @@ h2 {
     margin: 0 0 10px;
 }
 
+.role-2{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 36px;
+    margin-top: -.7rem;
+    margin-bottom: 1rem;
+}
+
+.person-2{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 36px;
+}
+
 /* Initially hide bio details */
 .bio {
     display: none;
     margin-top: 10px;
     color: #555;
+}
+
+.bio-2 {
+    display: none;
+    color: white;
+    margin-top: 1rem;
 }
 
 /* Button styling */
@@ -85,6 +114,67 @@ button {
     cursor: pointer;
 }
 
+.button-2{
+    background: #1C2522;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
 button:hover {
     background: #0056b3;
+}
+
+.button-2:hover{
+background: #A3041F;
+}
+
+/* Team Bio Images */
+.profile-picture{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-top: -.5px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #A3041F;
+    padding: 5px;
+}
+
+/* Bryonna Bio text */
+.favorite-tools {
+    list-style-type: none;
+    padding: 0;
+}
+
+.favorite-tools > li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.favorite-tools > li > ul {
+    list-style-type: circle;
+    align
+    margin: 0;
+}
+
+.favorite-tools > li > ul > li {
+    margin: 5px 0;
+    color: #CCCCCC;
+    text-align: left;
+}
+
+.quote {
+    font-style: italic;
+    color: #A3041F;
+    padding-left: 10px;
+    margin: 20px 0;
+    font-size: 1.2em;
+    border-radius: 5px;
 }

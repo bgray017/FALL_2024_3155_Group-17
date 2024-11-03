@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Bio</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -29,11 +31,41 @@
         <button onclick="toggleBio('bio1')">Show Bio</button>
         <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
     </div>
-    <div class="card">
-        <h2>Bryonna Gray</h2>
-        <p>Scrum Master</p>
-        <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Bryonna is a Scrum Master/Developer specializing in web and mobile applications.</p>
+    <div class="card-2">
+        <h2 class="person-2">Bryonna Gray</h2>
+        <p class="role-2">Scrum Master</p>
+        <img src="img/profile_pic_bryonna.jpg" alt=" bryonna gray profile picture" class="profile-picture">
+        <button class="button-2" onclick="toggleBio('bio2')">Show Bio</button>
+        <div id="bio2" class="bio-2">
+            Bryonna is a Scrum Master/Developer specializing in web and mobile applications.
+
+            <blockquote class="quote">
+                “I love technology and I want to feel like I'm living in the future.”<br>
+                <cite>— Dee Bradley Baker</cite>
+            </blockquote>
+
+            <ul class="favorite-tools">
+            <li >Favorite Tools/Langauges
+                <ul>
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>Stack Overflow</li>
+                    <li>Sublime</li>
+                    <li>Java</li>
+                    <li>Udemy</li>
+                    <li>Power Automate</li>
+                </ul>
+            </li>
+            <li class="career-interests">Career Interests
+                <ul>
+                    <li>Web/Mobile Development</li>
+                    <li>Automation/AI</li>
+                    <li>Prompt Engineering</li>
+                    <li>Cloud</li>
+                </ul>
+            </li>
+        </ul>
+        </div>
     </div>
     <div class="card">
         <h2>Emily Johnson</h2>
