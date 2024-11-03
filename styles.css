@@ -71,6 +71,19 @@ header nav button:hover {
     color: white;
 }
 
+.card1 {
+    background: white;
+    border: 2px solid;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+    transition: transform 0.2s;
+    border-color: black;
+}
+
 .card:hover {
     transform: scale(1.05);
 }
@@ -188,4 +201,54 @@ background: #A3041F;
     justify-content: space-between;
     text-align: center;
     font-size: 28px;
+}
+
+/* ------Vanessa card Stylings--- */
+.card1 .profile {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Image size and styling */
+.bio1-container img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.bio1-container .bio1-logo {
+    border-radius: 0;
+    width: 50px;
+}
+
+#quote 
+{
+    font-style: italic;
+    color: #0000FF;
+    font-size: 15px;
+}
+
+/* career interest list style */
+.bio1-container ul
+{
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: none;
+}
+
+/* Container to hold all logos in a row */
+.logos-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+/* Style for logo images */
+.tool-logos {
+    height: auto;
+    margin-bottom: 5px;
 }
