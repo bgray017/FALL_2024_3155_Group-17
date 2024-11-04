@@ -49,8 +49,9 @@ header nav button:hover {
 }
 
 /* Card styling for individual team bios */
-.card {
-    background: white;
+.card-3{
+    background: dimgrey;
+    border: 2px solid rebeccapurple;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -251,4 +252,53 @@ background: #A3041F;
 .tool-logos {
     height: auto;
     margin-bottom: 5px;
+}
+
+/* Javier Styles */
+.bio-3 {
+    font-family: 'American Typewriter', serif;
+    font-size: 20px;
+    color: white;
+}
+
+.person-3{
+    font-family: 'Courier New', monospace;
+    font-size: 28px;
+    color : white;
+}
+
+.role-3 {
+    font-family: 'Courier New', monospace;
+    font-size: 25px;
+    color : white;
+}
+
+.container-list {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+.container-list > li > ul {
+    list-style-type: disclosure-closed;
+    margin : 0;
+    font-size: larger;
+}
+
+.container-list > li > ul > li {
+    text-align: left;
+    font-weight: normal;
+    font-size: medium;
+}
+
+.dog-photo {
+    width: 20%;
+    height: auto;
+}
+
+.list-photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
